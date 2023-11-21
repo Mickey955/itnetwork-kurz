@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Aplikace pojištění." />
+    <meta name="keywords" content="Pojištění" />
+    <meta name="author" content="Michaela Jordánová" />
+    <link rel="stylesheet" href="zkouska.css" />
+    <title>Pojištění Papoušek</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1><span>Pojištění Papoušek</span></h1>
+        <small>Expert na pojištění exotického ptactva</small>
+    </div>
+    <nav>
+      <ul>
+        <li><a class="menu-link-info" href="#" id="show-info">Informace</a></li>
+
+        <li>
+          <a class="menu-link-registration" href="#" id="show-registration">Registrace</a></li>
+
+        <li>
+          <a class="menu-link-evidence" href="#" id="show-evidence">Pojištěnci</a></li>
+
+        <li>
+          <a class="menu-link-contact" href="#" id="show-kontact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <section id="registration-section">
+      <form>
+        <h3>Registrace</h3>
+        <fieldset>
+
+          <div class="row">
+            <div class="column">
+              <label for="jmenoInput">Jméno:</label>
+              <input type="text" id="jmenoInput" class="jmenoInput" />
+            </div>
+
+            <div class="column">
+              <label for="prijmeniInput">Příjmení:</label>
+              <input type="text" id="prijmeniInput" class="prijmeniInput" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <label for="vekInput">Věk:</label>
+              <input type="text" id="vekInput" class="vekInput" />
+            </div>
+
+            <div class="column">
+              <label for="telefonInput">Telefon:</label>
+              <input type="text" id="telefonInput" class="telefonInput" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <label for="emailInput">E-mail:</label>
+              <input type="text" id="emailInput" class="e-mailInput" />
+            </div>
+
+            <div class="column">
+              <label for="papousekInput">Papoušek:</label>
+              <input type="text" id="papousekInput" class="papousekInput" />
+            </div>
+          </div>
+
+          <a href="" class="odeslat-tlacitko">Odeslat</a>
+        </fieldset>
+      </form>
+    </section>
+
+    <div id="evidence-container"></div>
+
+    <section class="evidence-section">
+      <h3>Evidence</h3>
+    </section>
+
+    <section id="info-section" style="display: none">
+      <h3>Informace o mě</h3>
+      <p class="centrovany"></p>
+        <img src="papouch.png" alt="Pojištění Papoušek" width="100" height="100">
+      <p>Pojištění Papoušek vzniklo v roce 2023 v reakci na rostoucí popularitu domácích mazlíčků
+         a větší důraz lidí na poskytování kvalitní péče svým zvířatům.</p>
+      <p>Tato pojištění mohou pokrývat různé situace, včetně veterinární péče, léčby nemocí nebo úrazů,
+        a některé mohou dokonce zahrnovat i odpovědnostní pojištění pro případ,
+        že by Váš papoušek někomu ublížil nebo způsobil škodu.</p>
+    </section>
+
+    <section id="kontakt-section" style="display: none">
+      <h3>Kontakt</h3>
+      <p>Michaela Jordánová</p>
+      <p>758 225 325</p>
+      <p>Sládkova 28, Praha 3</p>
+    </section>
+  </article>
+
+  <footer>Vytvořila &copy;Mickey 2023 pro závěrečnou zkoušku na kurzu <a href="https://itnetwork.cz">www.itnetwork.cz</footer>
+</body>
+</html>
+    <script src="zkouska.js"></script>
+  </body>
+</html>

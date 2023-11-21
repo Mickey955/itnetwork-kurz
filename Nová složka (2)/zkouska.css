@@ -1,0 +1,194 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(Fonty/Quicksand-Medium.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(Fonty/Quicksand-Medium.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: Quicksand;
+  src: url(Fonty/Quicksand-Light.ttf);
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+article {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 50px 50px 10px 50px;
+}
+
+article h1,
+article h3 {
+  padding: 10px 0;
+  color: #743986;
+}
+
+article h1 {
+  margin: 0;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: max-content;
+  border-bottom: 4px solid rgb(137, 56, 148);
+}
+article h2 {
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+article header {
+  height: 80px;
+}
+
+article section p {
+  margin-bottom: 1.5em;
+  line-height: 1.8em;
+}
+article section a {
+  color: #ffffff;
+}
+.odeslat-tlacitko {
+  background: rgb(93, 39, 100);
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+.odeslat-tlacitko:hover,
+.odeslat-:hover {
+  border: 20;
+}
+
+body > header {
+  height: 100px;
+  width: 100%;
+  background: rgb(95, 23, 89);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+}
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav ul li {
+  padding: 0 25px;
+  margin: 0 5px;
+  font-size: 1em;
+  line-height: 4.3em;
+}
+nav ul a {
+  color: white;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul a:hover,
+.aktivni a {
+  border-bottom: 2px solid rgb(196, 92, 165);
+}
+
+table td {
+  width: 50%;
+  padding: 5px;
+}
+
+form {
+  width: 700px;
+}
+
+fieldset {
+  border: none;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+
+.record {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.record h4 {
+  margin: 0;
+  color: rgb(107, 0, 107);
+}
+
+.record p {
+  margin: 5px 0;
+}
+
+section {
+  padding: 5px 20px;
+  margin-bottom: 40px;
+}
+
+
+#registration-section {
+  border: 1px solid black;
+  margin-top: 120px;
+  display: none;
+}
+
+.evidence-section {
+  display: none;
+  width: 700px;
+  padding: 20px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: rgb(82, 20, 82);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+a {
+  color: #fff;
+}
+
+.record {
+  border: 1px solid rgb(10, 10, 10);
+}
+
+#info-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#kontakt-section {
+  margin-top: 120px;
+}
