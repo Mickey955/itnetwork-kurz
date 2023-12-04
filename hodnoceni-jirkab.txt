@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - snad až na hlavní adresář projektu pojmenovaný "Nová složka (2)", kombinaci anglických a českých pojmů a někdy příliš obecných pojmenování ok
+2. Dodržení principů SRP a SoC - nelze hodnotit, studentka se OOP zcela vyhnula
+3. Vhodný výběr datových typů - N/A
+4. Formátování kódu - odsazování pouze o dvě mezery není příliš přehledné, ale formátování jinak ok
+5. Duplicitní kód a nekonečné cykly - asi by se hodilo jinak řešit přepínání sekcí (třeba jen v CSS a ne v JS)
+6. Validace vstupních dat - telefonní číslo je vynuceně jen z číslic, nelze zadat +, mezery, pomlčky apod.
+7. Logičnost a složitost - obejití OOP, vstupní prvky mají class i id, ale pro jejich cílení je použit querySelector(class) namísto třeba getElementById(id)
+8. Komentáře - jsou
+9. Celkové hodnocení - přestože nejde o velkou aplikaci, už teď působí trochu nespravovatelným dojmem v důsledku zvoleného řešení, resp. vyhnutí se OOP, které by do toho mohlo vnést trochu řádu a orientace. Zvážit refaktoring. A upravit nevalidní HTML na konci souboru, kde se vkládá skript a jsou tam dvě ukončovací značky pro body a html.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
